@@ -1,0 +1,21 @@
+{
+  "collections": {
+    "bookings": {
+      "schema": {
+        "id": "string",
+        "propertyType": "string",
+        "name": "string",
+        "phone": "string",
+        "email": "string",
+        "address": "string",
+        "services": "array",
+        "preferredDate": "string",
+        "preferredTime": "string",
+        "additionalNotes": "string",
+        "status": "string",
+        "createdAt": "timestamp"
+      },
+      "indexes": []
+    }
+  }
+}

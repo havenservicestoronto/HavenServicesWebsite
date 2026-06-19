@@ -1,0 +1,6 @@
+{
+  "name": "Haven Services",
+  "description": "Premium residential and commercial property maintenance services in Toronto and surrounding areas including window washing, solar panel cleaning, gutter cleaning, and lawn care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
