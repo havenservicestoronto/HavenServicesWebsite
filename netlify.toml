@@ -1,0 +1,14 @@
+# Netlify Configuration File for Haven Services (Vite React SPA)
+
+[build]
+  # The command to compile the React/Vite code
+  command = "npm run build"
+  
+  # The output directory after Vite completes building
+  publish = "dist"
+
+# Redirects rule to enable local path routing (Vite SPA)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
